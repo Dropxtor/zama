@@ -1,11 +1,23 @@
 # fhEVM Python SDK
 
-Use Python3.10 or earlier:
+Créer le script :
+```bash
 
-    python3.10 -m venv venv
-    . ./venv/bin/activate
-    
-    pip install -r requirements.txt
+nano setup_python_env.sh
+```
+Copiez-collez le script ci-dessus, sauvegardez (Ctrl+O, Enter, Ctrl+X).
+
+Rendre le script exécutable :
+```bash
+
+chmod +x setup_python_env.sh
+```
+Exécuter le script :
+```bash
+
+./setup_python_env.sh
+```
+
     
 
 For now we also need to installed the fhEVM cli (which in turn requires [Rust]() to be installed):
